@@ -1,4 +1,7 @@
 siriproxy-reembox
 =================
 
-This is a siriproxy plugin to control a reembox
+to install insert the following lines in your siriproxy/config.yml
+
+- name: 'Reembox'
+      git: 'git://github.com/taschik/siriproxy-reembox.git'
