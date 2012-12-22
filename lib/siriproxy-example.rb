@@ -41,8 +41,8 @@ class SiriProxy::Plugin::Reembox < SiriProxy::Plugin
       say "This device is not configured."
     else
       client.write(request)
-      client.close
     end
+      client.close
   end
 
 
